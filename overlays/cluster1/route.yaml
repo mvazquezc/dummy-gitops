@@ -1,0 +1,6 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: dummy
+spec:
+  host: dummy.cluster1.example.com

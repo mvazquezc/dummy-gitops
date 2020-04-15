@@ -1,0 +1,6 @@
+commonAnnotations:
+  cluster: cluster1
+bases:
+- ../../base
+patchesStrategicMerge:
+- route.yaml
